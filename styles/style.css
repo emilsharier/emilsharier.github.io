@@ -1,0 +1,312 @@
+@media only screen and (max-width: 2000px) {
+    .description {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .header {
+        font-size: 60px;
+    }
+    .subtitle {
+        font-size: 22px;
+        padding-bottom: 5%;
+    }
+    .intro {
+        font-size: 50px;
+    }
+    .what-i-can-do {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .web-text {
+        padding-top: 13%;
+    }
+    .phone-text {
+        padding-top: 13%;
+    }
+    .pc-text {
+        padding-top: 13%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .description {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .header {
+        font-size: 40px;
+        padding-top: 5%;
+    }
+    .subtitle {
+        font-size: 20px;
+        padding-bottom: 10%;
+    }
+    .intro {
+        font-size: 30px;
+    }
+    .what-i-can-do {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .web-service {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .phone-service {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pc-service {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .web-text {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .phone-text {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .pc-text {
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body_class {
+    font-family: 'Montserrat';
+    color: #231942;
+    background-color: #f7f7f7;
+}
+
+.custom-navbar {
+    background-color: #D8E1E9;
+    box-shadow: 0 10px 20px -7px rgba(0, 0, 0, 0.10);
+}
+
+.custom-navbar .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-navbar li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-navbar button {
+    margin-left: auto;
+}
+
+.custom-navbar a {
+    color: #231942;
+    font-weight: 600;
+}
+
+.avatar {
+    padding-top: 4%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.header {
+    font-weight: 700;
+}
+
+.subtitle {
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about-myself {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: #264653;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.about-myself .intro {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+}
+
+.description {
+    font-weight: 200;
+    padding-top: 2%;
+    font-size: larger;
+}
+
+.what-i-can-do {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.web-service {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phone-service {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pc-service {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phone-text {
+    text-align: center;
+}
+
+.web-text {
+    text-align: center;
+}
+
+.pc-text {
+    text-align: center;
+}
+
+.custom-services {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card_image img {
+    width: 100%;
+    height: auto;
+    /* max-width: 100%; */
+    background-size: cover;
+}
+
+.btn {
+    color: white;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* background: transparent; */
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 33.3333%;
+    }
+}
+
+.card_custom {
+    background-color: #D8E1E9;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card_content {
+    padding: 1rem;
+    background-color: #264653;
+    /* background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%); */
+}
+
+.card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0px;
+}
+
+.card_text {
+    padding-top: 4%;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+}
+
+.made_by {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.card_image .tools {
+    width: 100%;
+    height: auto;
+    /* max-width: 100%; */
+    background-size: cover;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
